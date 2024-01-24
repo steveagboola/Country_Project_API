@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Country Information</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <!-- Our Own CSS -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Out Own JS -->
+        <!-- defer allows the script to be ran after the DOM Loads -->
+        <script src="./js/index.js" defer></script>
+
+
+    </head>
+    <body>
+        <body>
+            <header class="text-center bg-light py-4">
+                <h1>Country Information Finder</h1>
+            </header>
+            <main class="container mt-4">
+                <form id="country-form">
+                    <input type="text" id="country-name" class="form-control" placeholder="Enter a country name">
+                    <button type="submit" class="btn btn-primary mt-2">Get Info</button>
+                </form>
+                <div id="country-info" class="mt-4"></div>
+            </main>
+            <footer class="text-center py-3 bg-light mt-4">
+                &copy; 2024 Country Info Finder
+            </footer>
+            <script src="./js/index.js"></script>
+
+        </body>
+        </html>
